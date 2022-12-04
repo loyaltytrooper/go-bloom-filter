@@ -12,12 +12,12 @@ The bits at index are then set to 1, otherwise go initializes all the variables 
 <br>
 <br>
 >To check if a value exists in the database, the value is again hashed using the same 3 algorithms with same seed (if any using seed values) to obtain the indices to check if the value was set according to it. If all the k indices were set to 1 then there's a high probability that the element to be searched exists. 
-![visualization_3.png](img_3.png)
+<img src="img_3.png"></img>
 <br>
 <br>
 > However if any of the index is not set then it is a 100% assurance that the element does not exist.
-> <br> <br> 
-> ![probability.png](img_1.png)![probability_2.png](img_2.png)
+> <br> <br>
+<img src="img_1.png"></img><img src="img_2.png" align=top></img>
 <br>
 <br>
 > In order to hash efficiently Go-Routines and WaitGroups have been used. 

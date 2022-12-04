@@ -9,7 +9,7 @@ import (
 func main() {
 	cache := database.BloomFilterCache{}
 	cache.OnBits = 0
-	cache.BitsArray = make([]byte, 10)
+	cache.BitsArray = make([]byte, 100)
 
 	database := database.DB{}
 	var rehash = true
